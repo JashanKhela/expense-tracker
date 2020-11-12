@@ -3,11 +3,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="budget.png"/>
     <title>Expense Tracker</title>
 </head>
 <body>      
     <h1>Expense Tracker</h1>
-    <script src="script.js"></script>
     <div class="__container">
         <h4>Your Balance</h4>
         <h1 id="__balance">$0.00</h1>
@@ -20,8 +20,8 @@
                 </p>   
             </div>
             <div>
-                <h4>Expense</h4>
-                <p id="__moneyPlus" class="__money minus">
+                <h4>Expenses</h4>
+                <p id="__moneyMinus" class="__money minus">
                     -$0.00
                 </p>   
             </div>
@@ -29,7 +29,6 @@
 
         <h3>History</h3>
         <ul id="__list" class="__list">
-            <!-- <li class="minus">Cash <span>-$400</span><button class="__deleteButton">X</button></li> -->
         </ul>
 
         <h3>Add New Transaction</h3>
@@ -44,9 +43,7 @@
             </div>
             <button class="__btn">Add Transaction</button>
         </form>
-
-
-
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
